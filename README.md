@@ -29,13 +29,19 @@ This project focuses on summarizing and visualizing structured data using pivot 
 Creates pivot tables for data aggregation
 Converts summarized data into visual charts
 Helps identify trends and patterns in datasets
+
+
 🧰 Tools & Libraries
 pandas
 matplotlib
+
+
 ⚙️ Features
 Data grouping and aggregation
 Chart plotting from pivot tables
 Clean and simple data exploration workflow
+
+
 🛠️ Installation & Setup
 Clone the repository:
 git clone https://github.com/your-username/your-repo-name.git
@@ -44,11 +50,15 @@ Install required dependencies:
 pip install pandas matplotlib plotly
 Run Jupyter Notebook:
 jupyter notebook
+
+
 📌 Key Learning Outcomes
 Understanding data visualization techniques
 Working with hierarchical and tabular data
 Creating interactive and static charts
 Using Python libraries for data analysis
+
+
 📁 Repository Structure
 ├── Mini treemap project.ipynb
 ├── Pivot_charts.ipynb
