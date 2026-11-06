@@ -1,68 +1,69 @@
-Data Visualization Projects (Jupyter Notebooks)
+# Data Visualisation with Treemaps and Pivot Tables
 
-This repository contains practical data analysis and visualization projects built using Python in Jupyter Notebook. The focus is on transforming raw data into meaningful insights through interactive and visual representations.
+A collection of Jupyter notebooks exploring how aggregated data can be presented through hierarchical charts, pivot tables, and conventional plots.
 
-🚀 Projects Included
-1. 📈 Treemap Visualization (Mini Treemap Project)
+## Projects Included
 
-This project demonstrates how to visualize hierarchical sales data using Plotly Express.
+### Treemap Visualisation
 
-🔍 Overview
-Represents category-based sales distribution
-Uses a treemap to show proportions within hierarchical data
-Provides an intuitive way to compare different product segments
-🧰 Tools & Libraries
-plotly.express
-pandas
-📊 Sample Use Case
+The treemap exercises use Plotly Express to represent hierarchical categories and compare their relative contributions.
 
-Sales data categorized into:
+Notebooks:
 
-Electronics (Laptops, Smartphones, Tablets)
-Furniture (Chairs, Tables, Sofas)
-Clothing (Men, Women, Kids)
-2. 📉 Pivot Tables & Charts (Pivot Charts Project)
+- `Mini treemap project.ipynb`
+- `Treemap.ipynb`
 
-This project focuses on summarizing and visualizing structured data using pivot tables and charts.
+### Pivot Tables and Charts
 
-🔍 Overview
-Creates pivot tables for data aggregation
-Converts summarized data into visual charts
-Helps identify trends and patterns in datasets
+The pivot-table exercise uses Pandas to aggregate data and create chart-ready summaries.
 
+Notebook:
 
-🧰 Tools & Libraries
-pandas
-matplotlib
+- `Pivot_charts.ipynb`
 
+## Tools
 
-⚙️ Features
-Data grouping and aggregation
-Chart plotting from pivot tables
-Clean and simple data exploration workflow
+- Python
+- Pandas
+- Plotly Express
+- Matplotlib
+- Jupyter Notebook
 
+## Getting Started
 
-🛠️ Installation & Setup
-Clone the repository:
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-Install required dependencies:
-pip install pandas matplotlib plotly
-Run Jupyter Notebook:
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch Jupyter:
+
+```bash
 jupyter notebook
+```
 
+Open the notebook of interest and run its cells in order.
 
-📌 Key Learning Outcomes
-Understanding data visualization techniques
-Working with hierarchical and tabular data
-Creating interactive and static charts
-Using Python libraries for data analysis
+## Learning Outcomes
 
+- Grouping and aggregating tabular data
+- Understanding hierarchical visualisation
+- Using pivot tables to compare categories
+- Choosing appropriate chart types for analytical questions
 
-📁 Repository Structure
+## Repository Structure
+
+```text
+.
 ├── Mini treemap project.ipynb
 ├── Pivot_charts.ipynb
+├── Treemap.ipynb
+├── requirements.txt
 └── README.md
-🤝 Contributing
+```
 
-Contributions are welcome! Feel free to fork this repo and submit a pull request with improvements or additional visualizations.
+## Author
+
+Jehosaphat Brobbey Impiani  
+[GitHub](https://github.com/Slimjoey56)
